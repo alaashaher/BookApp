@@ -411,3 +411,15 @@ D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.
 D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+D:\ASP.Net\BookApp\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+D:\ASP.Net\BookApp\obj\Debug\netcoreapp3.1\BookApp.csproj.CoreCompileInputs.cache
+D:\ASP.Net\BookApp\obj\Debug\netcoreapp3.1\BookApp.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.Net\BookApp\obj\Debug\netcoreapp3.1\BookApp.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.Net\BookApp\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Index.cshtml.g.cs
+D:\ASP.Net\BookApp\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Create.cshtml.g.cs
