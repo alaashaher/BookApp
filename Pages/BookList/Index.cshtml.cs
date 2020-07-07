@@ -22,5 +22,16 @@ namespace BookApp.Pages.BookList
         {
             Books = await _db.Book.ToListAsync();
         }
+        public async Task<IActionResult> OnPostDelete(int id)
+        {
+            var BookFormDb = await _db.Book.FindAsync(id);
+            if (BookFormDb == null)
+            {
+                return NotFound();
+            }
+            _db.Book.Remove(BookFormDb);
+            await _db.SaveChangesAsync();
+            return RedirectToPage("Index");
+        }
     }
 }

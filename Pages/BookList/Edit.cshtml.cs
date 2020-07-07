@@ -9,24 +9,28 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace BookApp.Pages.BookList
 {
-    public class CreateModel : PageModel
+    public class EditModel : PageModel
     {
         private readonly ApplictionDbContext _db;
-        public CreateModel(ApplictionDbContext db)
+        public EditModel(ApplictionDbContext db)
         {
             _db = db;
         }
         [BindProperty]
         public Book Book { get; set; }
-        public void OnGet()
+        public async Task OnGet(int id)
         {
-
+            Book = await _db.Book.FindAsync(id);
         }
         public async Task<IActionResult> OnPost()
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                await _db.AddAsync(Book);
+                var BookFormDb = await _db.Book.FindAsync(Book.Id);
+                BookFormDb.Name = Book.Name;
+                BookFormDb.Author = Book.Author;
+                BookFormDb.ISBN = Book.ISBN;
+                //await _db.AddAsync(Book);
                 await _db.SaveChangesAsync();
                 return RedirectToPage("Index");
             }
